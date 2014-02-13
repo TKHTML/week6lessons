@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ecf0f1;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+	background: #bdc3c7;
+}
+
+header {
+	padding: 10px;
+	background: #16a085;
+	color: #fff;
+	text-align: center;
+}
+
+section, aside {
+	float: left;
+	padding: 10px;
+	display: inline-block;
+}
+
+section {
+	width: 75%;
+}
+
+aside {
+	width: 25%;
+}
